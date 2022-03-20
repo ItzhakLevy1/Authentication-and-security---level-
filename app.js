@@ -5,7 +5,7 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const session = require("express-session");
 const passport = require("passport");
-const passportLocalMongoose = require("passport-local-mongoose");   // This package will salt and hash all paswords for us.
+const passportLocalMongoose = require("passport-local-mongoose");   // This package will salt and hash all passwords for us.
 
 const app = express();
 
