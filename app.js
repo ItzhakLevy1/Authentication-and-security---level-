@@ -32,7 +32,7 @@ const userSchema = new mongoose.Schema ({
   password: String
 });
 
-userSchema.plugin(passportLocalMongoose);   
+userSchema.plugin(passportLocalMongoose);   // This is how we would save our users into our data base.
 
 const User = new mongoose.model("User", userSchema);
 
